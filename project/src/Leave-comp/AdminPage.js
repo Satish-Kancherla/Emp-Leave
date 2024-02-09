@@ -80,7 +80,8 @@ const AdminPage = () => {
                                 <td className='data' name="employeename" value={content.employeename} onChange={handleInputs}>{user.employeename}</td>
                                 <td className='data' name="projectname" value={content.projectname} onChange={handleInputs}>{user.projectname}</td>
                                 <td className='data' name="shifttimings"  value={content.shifttimings} onChange={handleInputs}>{user.shifttimings}</td>
-                                <td className='data' name="leavetype"  value={content.leavetype} onChange={handleInputs}>{user.leavetype}</td>                                <td className='data' name="startdate"  value={content.startdate} onChange={handleInputs}>{date1.toLocaleDateString()}</td>
+                                <td className='data' name="leavetype"  value={content.leavetype} onChange={handleInputs}>{user.leavetype}</td>                               
+				<td className='data' name="startdate"  value={content.startdate} onChange={handleInputs}>{date1.toLocaleDateString()}</td>
                                 <td className='data' name="enddate"  value={content.enddate} onChange={handleInputs}>{date2.toLocaleDateString()}</td>
                                 <td className='data' name="numberofdays"  value={content.numberofdays} onChange={handleInputs}>{user.numberofdays}</td>
                                 <td className='data' name="description"  value={content.description} onChange={handleInputs}>{user.description}</td>
