@@ -16,7 +16,7 @@ const Update = () => {
     };
 
     useEffect(()=>{
-        axios.get("http://localhost:8082/userdetail/"+id)
+        axios.get("http://16.170.249.73:8082/userdetail/"+id)
         .then(res =>{
             setUser(res.data[0]);
         })
@@ -26,7 +26,7 @@ const Update = () => {
     const handleUpdate= async (e) => {
         e.preventDefault();
         try{
-            await axios.put(`http://localhost:8082/user/${id}`, user);
+            await axios.put(`http://16.170.249.73:8082/user/${id}`, user);
             
         }catch(err){
             console.log(err);
