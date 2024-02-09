@@ -6,7 +6,7 @@ const cors = require('cors');
 app.use(cors());
 app.use(express.json());
 
-const db = mysql.createConnection({
+const db = mysql.createPool({
   user            : 'admin',
   host            : 'acq-emp-db.crmeuqwsiwsg.eu-north-1.rds.amazonaws.com',
   password        : 'accentiqa123',
@@ -79,19 +79,21 @@ app.get("/userdetails/:id", (req, res) => {
     })
 })
 
+
+
 app.post('/leave',(req,res)=>{
   const sql="INSERT INTO leaverequest (`employeename`,`projectname`,`shifttimings`,`leavetype`,`startdate`,`enddate`,`numberofdays`,`description`,`managername`) Values(?)";
 
   const values = [req.body.employeename, req.body.projectname, req.body.shifttimings,req.body.leavetype, req.body.startdate, req.body.enddate, req.body.numberofdays, req.body.description, req.body.managername]
 
-  db1.query(sql,[ values],(err,data)=>{
+  db.query(sql,[ values],(err,data)=>{
       if(err)
       return res.json(data);
   })
 })
 
 app.get("/user",(req,res)=>{
-    db1.query("SELECT * FROM leaverequest",(err,result)=>{
+    db.query("SELECT * FROM leaverequest",(err,result)=>{
         if(err){
             console.log(err);
             return result.json(err);
@@ -104,7 +106,7 @@ app.get("/user",(req,res)=>{
 
 app.get("/userdetail/:id", (req, res) => {
     const id = req.params.id;
-    db1.query("SELECT * FROM leaverequest WHERE id = ?",id, (err, result) => {
+    db.query("SELECT * FROM leaverequest WHERE id = ?",id, (err, result) => {
       if (err) {
         console.log(err);
       } else {
@@ -119,7 +121,7 @@ app.get("/userdetail/:id", (req, res) => {
 
     const sql ="UPDATE leaverequest SET status = ? WHERE id = ?";
 
-    db1.query(sql, [req.body.status,userIds], (err, result) => {
+    db.query(sql, [req.body.status,userIds], (err, result) => {
         if (err) {
           console.log(err);
         } else {
