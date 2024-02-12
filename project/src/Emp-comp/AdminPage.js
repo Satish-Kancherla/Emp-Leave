@@ -55,8 +55,8 @@ const AdminPage = () => {
         <button className="btn2" onClick={generatePDF}>PDF</button>
         </div>
         
-        <div className="adminpage-content" >
-            <table className='adminpage-table'>
+        <div className="adminpage2-content" >
+            <table className='adminpage2-table'>
                 <thead >
                     <tr>
 			        <th className='heading2' name="employeename">EMPLOYEE NAME </th>
@@ -83,7 +83,7 @@ const AdminPage = () => {
                                 <td className='data' >1</td>
                                 <td className='data'  ><Link to={`/update/${user.id}`}>
                                  
-                                    <select  className='data'  name="status" value={user.status}  onChange={handleInputs}>
+                                    <select  className='data'  name="status" value={user.status} disabled={user.status==="Approved"}  onChange={handleInputs}>
                                         <option value="Pending">Pending</option>
                                         <option value="Approved">Approved</option>
                                      </select></Link></td>

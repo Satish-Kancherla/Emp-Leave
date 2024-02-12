@@ -1,13 +1,12 @@
 import React from 'react'
 import { useState,useEffect,useRef } from "react";
 import axios from "axios";
-import { useReactToPrint } from "react-to-print";
 import { Link} from 'react-router-dom';
-import "./adminpage1.css";
+import "./Emplist.css";
 
 
 
-const AdminPage = () => {
+const Emplist = () => {
     const[data,setData] = useState([]);
     const[content,setContent]= useState(
         {id:"", employeename:"",projectname: "",shifttimings: "",leavetype:"",startdate:"",enddate:"",numberofdays:"",description:"",managername:"",status:""});
@@ -21,7 +20,7 @@ const AdminPage = () => {
    
     const fetchData = async()=>{
         try{
-            const result = await axios("http://16.170.249.73:8082/user");
+            const result = await axios("http://localhost:8082/user");
             setData(result.data);
         } catch (err) {
             console.log("something Wrong");
@@ -37,23 +36,13 @@ const AdminPage = () => {
         setContent({...content,[name]:values});
     }    
     
-    const generatePDF= useReactToPrint({
-        content: ()=>conponentPDF.current,
-        documentTitle:"EmployeeData",
-       
-    });
+   
    
   return (
     <div className='adminpage' ref={conponentPDF} style={{width:'100%'}}>
         <h1>Employees Requests </h1>
         <hr/>         
-        <div className="btn-1">
-        <div className='sort'>
-       <button className='button'> <Link to="/filterlist">FILTER</Link></button>
-      </div>
-      
-        <button className="btn" onClick={generatePDF}>PDF</button>
-        </div>
+       
         
         <div className="adminpage-content" >
             <table className='adminpage-table'>
@@ -80,20 +69,17 @@ const AdminPage = () => {
                                 <td className='data' name="employeename" value={content.employeename} onChange={handleInputs}>{user.employeename}</td>
                                 <td className='data' name="projectname" value={content.projectname} onChange={handleInputs}>{user.projectname}</td>
                                 <td className='data' name="shifttimings"  value={content.shifttimings} onChange={handleInputs}>{user.shifttimings}</td>
-                                <td className='data' name="leavetype"  value={content.leavetype} onChange={handleInputs}>{user.leavetype}</td>                               
-				                <td className='data' name="startdate"  value={content.startdate} onChange={handleInputs}>{date1.toLocaleDateString()}</td>
+                                <td className='data' name="leavetype"  value={content.leavetype} onChange={handleInputs}>{user.leavetype}</td>                                
+                                <td className='data' name="startdate"  value={content.startdate} onChange={handleInputs}>{date1.toLocaleDateString()}</td>
                                 <td className='data' name="enddate"  value={content.enddate} onChange={handleInputs}>{date2.toLocaleDateString()}</td>
                                 <td className='data' name="numberofdays"  value={content.numberofdays} onChange={handleInputs}>{user.numberofdays}</td>
                                 <td className='data' name="description"  value={content.description} onChange={handleInputs}>{user.description}</td>
                                 <td className='data' name="managername"  value={content.managername} onChange={handleInputs}>{user.managername}</td>
-                                
                                 <td className='data'  ><Link to={`/updatelist/${user.id}`}>
-                                 
-                                    <select  className='data'  name="status" value={user.status} disabled={user.status==="Approved"}  onChange={handleInputs}>
+                                    <select  className='data'disabled  name="status" value={user.status}  onChange={handleInputs}>
                                         <option value="Pending">Pending</option>
-                                        <option value="Approved">Approved</option>
-                                     </select></Link></td>
-                                
+                                        <option value="Aprooved">Aprooved</option>
+                                     </select></Link></td>    
                             </tr>
                         )
                     })
@@ -108,4 +94,4 @@ const AdminPage = () => {
   )
 }
 
-export default AdminPage
+export default Emplist;

@@ -74,14 +74,14 @@ body {
 .data2{
   width:100px;border:1px solid black;padding:5px;font-weight: bold;font-size: 15px;
 }
-.date-button1{
+.date2-button12{
   background-color: white;color: #071952;border: 2px solid #071952;
   border-radius: 5px;margin: 0 10px;font-weight: bold;height: 200px;width:80px; font-size: 15px;
 }
-.date-button1:hover{
+.date2-button12:hover{
   background-color: #172e7d;color: white;
 }
-.date-button1:active{
+.date2-button12:active{
   background-color: #172e7d;color: white;
 }
 
@@ -94,7 +94,7 @@ body {
   .sort1 .button12{
     outline: none;font-size: 15px; border-radius: 5px;width:100px;border: none;margin: 0 10px;
      padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 35px;
-     margin-left:100px;
+     margin-left:160px;
   }
   .heading12 {
     background-color:#071952 /* green */;font-size: 14px;
@@ -117,14 +117,14 @@ body {
 @media screen and (max-width:870px) {
 
   .heading12 {
-    background-color:#071952 /* green */;font-size: 12.5px;
+    background-color:#071952 /* green */;font-size: 11.8px;
     Color:white; width:80px;border:1px solid black;padding:20px;
   }
   .data1{
-    width:100px;border:1px solid black;padding:5px;font-weight: bold;font-size: 12px;
+    width:100px;border:1px solid black;padding:5px;font-weight: bold;font-size: 11.8px;
   }
   .data1{
-    width:70px;border:1px solid black;padding:5px;font-weight: bold;font-size: 12px;
+    width:70px;border:1px solid black;padding:5px;font-weight: bold;font-size: 11.8px;
   }
   .update-btn{
     display: flex;justify-content: center;margin-top: 20px;font-size: 12px;
@@ -309,12 +309,12 @@ body {
    }
 
    .adminpage12 hr{
-     height: 2px;width: 0%;margin-left: 200px;
+     height: 2px;width: 150%;margin-left: 65px;
      border-radius: 10px;background-color: black;
    }
-   .heading1 {
+   .heading12 {
      background-color:#071952 ;
-     Color:white; border:1px solid black;font-size: 14px;
+     Color:white; border:1px solid black;font-size: 13.5px;
    }
   
    .data1 {
@@ -337,7 +337,7 @@ body {
    }
    .sort1 .button12{
      outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-      padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 25px;
+      padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 25px;margin-left: -45px;
       
    }
    
@@ -353,7 +353,7 @@ body {
       margin-left: 50px;
   } */
   .adminpage12 h1{
-    display: flex;justify-content: center;
+    display: flex;justify-content: center;align-items: center;
     margin: 10px 0; color: white;font-size: 20px;
    
   }
@@ -368,19 +368,19 @@ body {
   }
 
   .adminpage12 hr{
-    height: 2px;width: 0%;margin-left: 200px;
+    height: 2px;width: 100%;margin-left: 200px;
     border-radius: 10px;background-color: black;
   }
   .heading12 {
     background-color:#071952 ;
-    Color:white; border:1px solid black;font-size: 14px;
+    Color:white; border:1px solid black;font-size: 15px;
   }
  
   .data1 {
-    width:60px;border:1px solid black;padding:5px;font-weight: bold;font-size: 12px;
+    width:60px;border:1px solid black;padding:5px;font-weight: bold;font-size: 14px;
   }
   .data2{
-    width:50px;border:1px solid black;padding:5px;font-weight: bold;font-size: 12px;
+    width:50px;border:1px solid black;padding:5px;font-weight: bold;font-size: 14px;
   }
  
  
@@ -396,8 +396,12 @@ body {
   }
   .sort1 .button12{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 25px;
+     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 25px;margin-left: -70px;
      
+  }
+  .date2-button12{
+    background-color: white;color: #071952;border: 2px solid #071952;
+    border-radius: 5px;margin: 0 10px;font-weight: bold;height: 200px;width:80px; font-size: 15px;
   }
   
   .update-btn{

@@ -9,6 +9,7 @@ import AdminPage1 from "./Leave-comp/AdminPage";
 import Jan1 from "./Leave-comp/Jan";
 import Update1 from "./Leave-comp/Update";
 import EmployeeData1 from "./Leave-comp/EmployeeData";
+import Emplist from "./Leave-comp/Emplist";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/employeelist" element={<EmployeeData1 />}/>
         <Route path="/filterlist" element={<Jan1 />} />
         <Route path="/updatelist/:id" element={<Update1/>}/>
+        <Route path="/emplist" element={<Emplist />}/>
         
       </Routes>
       </BrowserRouter>

@@ -125,7 +125,7 @@ const Jan = () => {
                                 <td className='data1' name="description" value={data.description} onChange={handleInputs}>{user.description}</td>
                                 <td className='data1' name="managername" value={data.managername} onChange={handleInputs}>{user.managername}</td>
                                 <td className='data1' name="status"   ><NavLink to={`/updatelist/${user.id}`}>
-                                    <select  className='data1' name="status" value={user.status} onChange={handleInputs} /* onClick={handleStatus} */>
+                                    <select  className='data1' name="status" value={user.status} disabled={user.status==="Approved"}  onChange={handleInputs} /* onClick={handleStatus} */>
                                     <option value="Pending">Pending</option>
                                     <option value="Approved">Approved</option>
                                 </select></NavLink></td>

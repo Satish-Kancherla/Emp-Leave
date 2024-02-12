@@ -49,6 +49,9 @@ body {
 .data{
   width:150px;border:1px solid black;padding:5px;font-weight: bold;
 }
+.data:disabled{
+  color: #047500;background-color: whitesmoke;
+}
 .btn2-1{
   display: flex;justify-content: space-around;margin: 0 15px;margin-bottom: 10px;
 }
@@ -219,6 +222,9 @@ body {
     background-color:#071952 /* green */;font-size: 10px;
     Color:white; width:80px;border:1px solid black;padding:7px;
   }
+  .adminpage2 hr{
+    height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;width:107.5%
+   }
   .data{
     width:100px;border:1px solid black;padding:5px;font-weight: bold;font-size: 10px;
   }
@@ -320,14 +326,14 @@ body {
   }
 
   .adminpage2-table{
-     border-collapse: collapse;margin-left: 0px;
+     border-collapse: collapse;margin-left: 30px;
   }
   .adminpage2 hr{
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
   }
   .heading2 {
     background-color:#071952 ;
-    Color:white; border:1px solid black;font-size: 6px;
+    Color:white; border:1px solid black;font-size: 7px;
   }
  
   .data {
@@ -379,14 +385,14 @@ body {
   }
 
   .adminpage2-table{
-     border-collapse: collapse;margin-left: 0px
+     border-collapse: collapse;margin-left: 30px
   }
   .adminpage2 hr{
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
   }
   .heading2 {
     background-color:#071952 ;
-    Color:white; border:1px solid black;font-size: 6px;
+    Color:white; border:1px solid black;font-size: 7px;
   }
  
   .data {
@@ -507,7 +513,71 @@ body {
      border-collapse: collapse;margin-left: 15px;
   }
   .adminpage2 hr{
-    height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
+    height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;width: 104%;
+  }
+  .heading2 {
+    background-color:#071952 ;
+    Color:white; border:1px solid black;font-size: 6px;
+  }
+ 
+  .data {
+    width:60px;border:1px solid black;padding:5px;font-weight: bold;font-size: 6px;
+  }
+  .data1{
+    width:50px;border:1px solid black;padding:5px;font-weight: bold;font-size: 6px;
+  }
+  .btn2-1{
+    display: flex;justify-content: space-between;margin: 0 25px;margin-bottom: 10px;font-size: 6px;
+  }
+  
+  .sort .sort-option{
+    outline: none;border: none;font-size: 8px; border-radius: 5px;width:100%;
+     padding: 5px;background-color: #172e7d;color: white;font-weight: bold;height: 20px;
+  }
+  
+  .btn2{
+    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    color: white;font-weight: bold; border: none;border-radius: 5px;
+  }
+  .sort .button2{
+    outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
+    background-color: #071952;color: white;font-weight: bold;height: 20px;
+  }
+  .save{
+    display: flex;justify-content: center;margin: 20px;
+  }
+  .save-button2{
+    width:100px;height: 20px;background-color: #071952;color: white;
+    font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
+    
+  }
+  .save-button2:active{
+    background-color: #172e7d;color: white;
+  }
+  .update-btn2{
+    display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
+  }
+  .update-btn2 button{
+    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+  }
+}
+@media screen and (max-width:360px) {
+  .adminpage2 h1{
+    display: flex;justify-content: center;
+    margin: 10px 10px;color: #071952;font-size: 20px;
+  }
+  .adminpage2{
+    width: 500px;
+  }
+  .adminpage2-content{
+    display: flex;justify-content: center;text-align: center;margin: 0 5px;
+  }
+
+  .adminpage2-table{
+     border-collapse: collapse;margin-left: 30px;
+  }
+  .adminpage2 hr{
+    height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;width: 108%;
   }
   .heading2 {
     background-color:#071952 ;
@@ -555,10 +625,10 @@ body {
     background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
-@media screen and (max-width:360px) {
+@media screen and (max-width:280px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 10px;color: #071952;font-size: 20px;
+    margin: 10px 10px;color: #071952;font-size: 20px;margin-left: 100px;
   }
   .adminpage2{
     width: 500px;
@@ -568,10 +638,10 @@ body {
   }
 
   .adminpage2-table{
-     border-collapse: collapse;margin-left: 30px;
+     border-collapse: collapse;margin-left: 110px;
   }
   .adminpage2 hr{
-    height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
+    height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;width:139.5%;
   }
   .heading2 {
     background-color:#071952 ;
@@ -599,7 +669,7 @@ body {
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;margin-left: 70px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
