@@ -30,7 +30,7 @@ body {
   color: white;text-decoration: none;
 }
 .update-btn button:hover{
-  background-color: #12372A;
+  background-color: #12372A; 
 }
 /* table {
  border-collapse:separate;
@@ -68,7 +68,7 @@ body {
   background-color: #12372A;color: white;font-weight: bold;height: 35px; padding: 10px;
 }
 .sort .button a{
-  color: white;
+  color: white;text-decoration: none;
 }
 .sort .button:hover{
   background-color: #006c46;color: white;
