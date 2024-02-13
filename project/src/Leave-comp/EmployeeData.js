@@ -18,7 +18,7 @@ const Employee = () => {
         ]
     }
     ,{
-        name:"Data-axle TOC",
+        name:"Data-Axle TOC",
         employee:[
             {name:"Kolli Raghu"},{name:"Pithani Chidvinay"},{name:"Nukala Lalitha Bhavani"},{name:"Sanjay Wudali"},{name:"Jagadish Sharla"},{name:"Kodali Harshitha"},{name:"Ramisetty Yaswanth Sai"}
             ,{name:"Pakkala Akshitha"},{name:"Atmakuru Jithendra Kumar"},{name:"Bonda Shalom"},{name:"Lakshmipalem Anil Venkata Babu"}
@@ -29,7 +29,7 @@ const Employee = () => {
             ]
     },
     {
-        name:"Data-axle MZP",
+        name:"Data-Axle MZP",
         employee:[
             {name:"Meghana Sribhashyam"},{name:"Avilala Gowtham Kumar"},{name:"Chandrika Gummalla"},{name:"Katta Shailaja"},{name:"Edpuganti Jasmine"},{name:"Gangireddy Suneetha"},{name:"Vemula Laxman Reddy"}
             ,{name:"Gorla Sravani"},{name:"Avula Venkat Yeswanth Royal"},{name:"Kalasaudram Keerthana"},{name:"Pamuru Sudeshna"}
@@ -40,7 +40,7 @@ const Employee = () => {
         ]
     },
     {
-        name:"Data-axle TechOps",
+        name:"Data-Axle TechOps",
         employee:[
             {name:"Ramgiri Harsha Vardhan"},{name:"Vikas Vinod Jadhav"},{name:"Sitarami Reddy Eda"}
             ,{name:"Murtaza Zakiuddin Bhori"}
@@ -50,7 +50,7 @@ const Employee = () => {
         ]
    },
    {
-    name:"Data-axle MZP & TechOps",
+    name:"Data-Axle MZP & TechOps",
     employee:[
         {name:"Poorna Mani Vulavalapudi"},{name:"Rasmita Pradhan"},{name:"Goutham Garalapati"}
     ],
