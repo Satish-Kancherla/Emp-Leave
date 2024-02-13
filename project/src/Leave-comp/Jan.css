@@ -41,6 +41,9 @@ body {
 .data1{
   width:150px;border:1px solid black;padding:5px;font-weight: bold;
 }
+.data1:disabled{
+  color: #047500;background-color: whitesmoke;
+}
 .search1{
   display: flex;justify-content: center;
 }

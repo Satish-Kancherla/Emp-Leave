@@ -107,7 +107,9 @@ body {
 .date-button:active{
   background-color: #172e7d;color: white;
 }
-
+.data:disabled{
+  color: #047500;background-color: whitesmoke;
+}
 
 
 
@@ -491,7 +493,7 @@ body {
   }
   .update-btn{
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
-  }
+  } 
   .update-btn button{
     background: #12372A;border: none;border-radius: 5px;width: 80px;height: 20px;
   }

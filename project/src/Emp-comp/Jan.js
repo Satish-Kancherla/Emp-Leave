@@ -85,7 +85,7 @@ const Jan = () => {
         </div>
         
         <div className='date1'>
-            <DateRangePicker ranges={[selectionRange]} onChange={handleSelect}/><button className='date-button1' type='reset' onClick={handlesearch}>submit</button>
+            <DateRangePicker ranges={[selectionRange]} onChange={handleSelect}/><button className='date2-button12' type='reset' onClick={handlesearch}>submit</button>
             </div>
       </div>
       </div>

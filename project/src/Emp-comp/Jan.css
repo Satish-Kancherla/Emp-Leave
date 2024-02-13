@@ -41,6 +41,9 @@ body {
 .data1{
   width:150px;border:1px solid black;padding:5px;font-weight: bold;
 }
+.data:disabled{
+  color: #047500;background-color: whitesmoke;
+}
 .search1{
   display: flex;justify-content: center;
 }
@@ -68,7 +71,7 @@ body {
 .btn12:hover{
   background-color: #172e7d;color: white;
 }
-.date1{
+.date2{
   display: flex;justify-content: center;margin: 10px;align-items: center;
 }
 .data2{
