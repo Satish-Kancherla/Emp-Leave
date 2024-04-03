@@ -1,8 +1,6 @@
 import React from 'react'
 import { useState,useEffect,useRef } from "react";
 import axios from "axios";
-// import { useReactToPrint } from "react-to-print";
-// import { Link} from 'react-router-dom';
 import "./adminpage.css";
 
 
@@ -37,11 +35,7 @@ const ViewList = () => {
         setContent({...content,[name]:values});
     }    
     
-    // const generatePDF= useReactToPrint({
-    //     content: ()=>conponentPDF.current,
-    //     documentTitle:"EmployeeData",
-       
-    // });
+
    
   return (
     <div className='adminpage2' ref={conponentPDF} style={{width:'100%'}}>
@@ -49,10 +43,8 @@ const ViewList = () => {
         <hr/>         
         <div className="btn-1">
         <div className='sort'>
-       {/* <button className='button2'> <Link to="/filter">FILTER</Link></button> */}
       </div>
       
-        {/* <button className="btn2" onClick={generatePDF}>PDF</button> */}
         </div>
         
         <div className="adminpage2-content" >
