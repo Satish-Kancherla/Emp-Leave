@@ -5,10 +5,10 @@ import EmployeeData from "./Emp-comp/EmployeeData";
 
 import {BrowserRouter ,Routes,Route} from "react-router-dom";
 
-import AdminPage1 from "./Leave-comp/AdminPage";
-import Jan1 from "./Leave-comp/Jan";
-import Update1 from "./Leave-comp/Update";
-import EmployeeData1 from "./Leave-comp/EmployeeData";
+// import AdminPage1 from "./Leave-comp/AdminPage";
+// import Jan1 from "./Leave-comp/Jan";
+// import Update1 from "./Leave-comp/Update";
+// import EmployeeData1 from "./Leave-comp/EmployeeData";
 import Emplist from "./Leave-comp/Emplist";
 
 function App() {
@@ -22,12 +22,12 @@ function App() {
         <Route path="/filter" element={<Jan />} />
         <Route path="/update/:id" element={<Update/>}/>
 
-        <Route path="/leave" element={ <AdminPage1 />}/>
+        {/* <Route path="/leave" element={ <AdminPage1 />}/>
         <Route path="/employeelist" element={<EmployeeData1 />}/>
         <Route path="/filterlist" element={<Jan1 />} />
         <Route path="/updatelist/:id" element={<Update1/>}/>
         <Route path="/emplist" element={<Emplist />}/>
-        
+         */}
       </Routes>
       </BrowserRouter>
     </div>
