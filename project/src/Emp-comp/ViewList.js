@@ -2,7 +2,7 @@ import React from 'react'
 import { useState,useEffect,useRef } from "react";
 import axios from "axios";
 // import { useReactToPrint } from "react-to-print";
-import { Link} from 'react-router-dom';
+// import { Link} from 'react-router-dom';
 import "./adminpage.css";
 
 
@@ -21,7 +21,7 @@ const ViewList = () => {
    
     const fetchData = async()=>{
         try{
-            const result = await axios("http://16.170.249.73:8082/users");
+            const result = await axios("http://34.100.197.128:8082/users");
             setData(result.data);
         } catch (err) {
             console.log("something Wrong");
@@ -45,7 +45,7 @@ const ViewList = () => {
    
   return (
     <div className='adminpage2' ref={conponentPDF} style={{width:'100%'}}>
-        <h1>Admin Page</h1>
+        <h1>Employee Requests</h1>
         <hr/>         
         <div className="btn-1">
         <div className='sort'>
@@ -81,12 +81,12 @@ const ViewList = () => {
                                 <td className='data' name="description"  value={content.description} onChange={handleInputs}>{user.description}</td>
                                 <td className='data' name="managername"  value={content.managername} onChange={handleInputs}>{user.managername}</td>
                                 <td className='data' >1</td>
-                                <td className='data'  ><Link to={`/update/${user.id}`}>
+                                <td >
                                  
                                     <select  className='data'  name="status" value={user.status} disabled={user.status==="Approved"}  onChange={handleInputs}>
                                         <option value="Pending">Pending</option>
                                         <option value="Approved">Approved</option>
-                                     </select></Link></td>
+                                     </select></td>
                                 
                             </tr>
                         )

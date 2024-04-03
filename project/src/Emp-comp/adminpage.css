@@ -9,7 +9,7 @@ body {
 
 .adminpage2 h1{
   display: flex;justify-content: center;/* border-bottom: 2px solid black; */
-  margin: 10px 0;padding: 10px;color: #071952;font-weight: bolder;
+  margin: 10px 0;padding: 10px;color: rgb(34 95 177);font-weight: bolder;
 }
 .adminpage2-content{
   display: flex;justify-content: center;text-align: center;margin: 0 50px;padding: 0 50px;
@@ -24,7 +24,7 @@ body {
   display: flex;justify-content: center;margin-top: 20px;font-size: 18px;
 }
 .update-btn2 button{
-  background: #071952;border: none;border-radius: 5px;width: 150px;height: 30px;
+  background: rgb(34 95 177);border: none;border-radius: 5px;width: 150px;height: 30px;
 }
 .update-btn2 button a{
   color: white;text-decoration: none;
@@ -43,7 +43,7 @@ body {
   height: 2px;background-color: black;margin-bottom: 20px;border: 1px solid 071952;
 }
 .heading2 {
-  background-color:#071952 /* green */;
+  background-color: rgb(34 95 177) /* green */;
   Color:white; width:100px;border:1px solid black;padding:10px;
 }
 .data{
@@ -69,7 +69,7 @@ body {
 }
 .sort .button2{
   outline: none;font-size: 15px; border-radius: 5px;width:100px;border: none;margin: 0 10px;
-   padding: 10px;background-color: #071952;color: white;font-weight: bold;height: 35px;
+   padding: 10px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 35px;
 }
 .sort .button2 a{
   color: white;text-decoration: none;
@@ -79,7 +79,7 @@ body {
 }
 .btn2{
   margin:0 10px;
-  width:100px;height: 35px;background-color: #071952;color: white;font-weight: bold;
+  width:100px;height: 35px;background-color: rgb(34 95 177);color: white;font-weight: bold;
   outline: none; border: none;border-radius: 5px;font-size: 15px;
 }
 .btn2:hover{
@@ -89,7 +89,7 @@ body {
   display: flex;justify-content: center;margin: 20px;
 }
 .save-button2{
-  width:200px;height: 35px;background-color: #071952;color: white;font-weight: bold; border: none;border-radius: 5px;
+  width:200px;height: 35px;background-color: rgb(34 95 177);color: white;font-weight: bold; border: none;border-radius: 5px;
   
 }
 .save-button2:active{
@@ -102,7 +102,7 @@ body {
   width:80px;border:1px solid black;padding:5px;font-weight: bold;font-size: 15px;
 }
 .date-button2{
-  background-color: white;color: #071952;border: 2px solid #071952;
+  background-color: white;color: rgb(34 95 177);border: 2px solid rgb(34 95 177);
   border-radius: 5px;margin: 0 10px;font-weight: bold;height: 200px;width:80px; font-size: 15px;
 }
 .date-button2:hover{
@@ -119,7 +119,7 @@ body {
 
 @media screen and (max-width:912px) {
   .heading2 {
-    background-color:#071952 /* green */;font-size: 14px;
+    background-color:rgb(34 95 177) /* green */;font-size: 14px;
     Color:white; width:80px;border:1px solid black;padding:20px;
   }
   .data{
@@ -138,13 +138,13 @@ body {
   }
   
   .btn2{
-    width:100px;height: 35px;background-color: #071952;color: white;font-weight: bold; border: none;border-radius: 5px;
+    width:100px;height: 35px;background-color: rgb(34 95 177);color: white;font-weight: bold; border: none;border-radius: 5px;
   }
 }
 @media screen and (max-width:870px) {
 
   .heading2 {
-    background-color:#071952 /* green */;font-size: 12px;
+    background-color:rgb(34 95 177) /* green */;font-size: 12px;
     Color:white; width:80px;border:1px solid black;padding:20px;
   }
   .data{
@@ -157,12 +157,12 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 12px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 100px;height: 30px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 100px;height: 30px;
   }
 }
 @media screen and (max-width:801px) {
   .heading2 {
-    background-color:#071952 /* green */;font-size: 12px;
+    background-color:rgb(34 95 177) /* green */;font-size: 12px;
     Color:white; width:80px;border:1px solid black;padding:20px;
   }
   .data{
@@ -177,7 +177,7 @@ body {
     border-spacing:0 5px; border-collapse: collapse;
   }
   .heading2 {
-    background-color:#071952 /* green */;font-size: 10px;
+    background-color:rgb(34 95 177) /* green */;font-size: 10px;
     Color:white; width:80px;border:1px solid black;padding:10px;
   }
   .data{
@@ -195,18 +195,18 @@ body {
   }
   
   .btn2{
-    width:100px;height: 35px;background-color: #071952;font-size: 10px;
+    width:100px;height: 35px;background-color: rgb(34 95 177);font-size: 10px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .sort .button2{
     outline: none;font-size: 10px; border-radius: 5px;width:100px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 35px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 35px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 35px;background-color: #071952;color: white;
+    width:100px;height: 35px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 10px;
     
   }
@@ -219,7 +219,7 @@ body {
     border-spacing:0 5px; border-collapse: collapse;margin-left: 40px;
   }
   .heading2 {
-    background-color:#071952 /* green */;font-size: 10px;
+    background-color:rgb(34 95 177) /* green */;font-size: 10px;
     Color:white; width:80px;border:1px solid black;padding:7px;
   }
   .adminpage2 hr{
@@ -236,22 +236,22 @@ body {
   }
   .sort .sort-option{
     outline: none;border: none;font-size: 8px; border-radius: 5px;width:90%;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
   }
   
   .btn2{
-    width:70px;background-color: #071952;font-size: 8px; outline: none;height: 25px;
+    width:70px;background-color: rgb(34 95 177);font-size: 8px; outline: none;height: 25px;
     color: white;font-weight: bold; border: none;border-radius: 5px;padding: 5px;text-align: center;
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 20px;background-color: #071952;color: white;
+    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -262,14 +262,14 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
 
 @media screen and (max-width:512px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 10px;color: #071952;font-size: 20px;
+    margin: 10px 10px;color: rgb(34 95 177);font-size: 20px;
   }
   .adminpage2{
     width: 500px;
@@ -285,7 +285,7 @@ body {
    height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
   }
   .heading2 {
-    background-color:#071952 ;
+    background-color:rgb(34 95 177) ;
     Color:white; border:1px solid black;font-size: 7px;
   }
  
@@ -305,20 +305,20 @@ body {
   }
   
   .btn2{
-    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    width:70px;height: 20px;background-color: rgb(34 95 177);font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .update-btn2{
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 70px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 70px;height: 20px;
   }
 }
 @media screen and (max-width:430px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 100px;color: #071952;font-size: 20px;
+    margin: 10px 100px;color: rgb(34 95 177);font-size: 20px;
   }
  
   .adminpage2-content{
@@ -332,7 +332,7 @@ body {
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
   }
   .heading2 {
-    background-color:#071952 ;
+    background-color:rgb(34 95 177) ;
     Color:white; border:1px solid black;font-size: 7px;
   }
  
@@ -349,18 +349,18 @@ body {
   }
   
   .btn2{
-    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    width:70px;height: 20px;background-color: rgb(34 95 177);font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;margin-top:5px;
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 20px;background-color: #071952;color: white;
+    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -371,13 +371,13 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
 @media screen and (max-width:412px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 100px;color: #071952;font-size: 20px;
+    margin: 10px 100px;color: rgb(34 95 177);font-size: 20px;
   }
  
   .adminpage2-content{
@@ -391,7 +391,7 @@ body {
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
   }
   .heading2 {
-    background-color:#071952 ;
+    background-color:rgb(34 95 177) ;
     Color:white; border:1px solid black;font-size: 7px;
   }
  
@@ -408,18 +408,18 @@ body {
   }
   
   .btn2{
-    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    width:70px;height: 20px;background-color: rgb(34 95 177);font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;margin-top:5px;
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 20px;background-color: #071952;color: white;
+    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -430,13 +430,13 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
 @media screen and (max-width:390px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 10px;color: #071952;font-size: 20px;
+    margin: 10px 10px;color: rgb(34 95 177);font-size: 20px;
   }
   .adminpage2{
     width: 500px;
@@ -452,7 +452,7 @@ body {
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;
   }
   .heading2 {
-    background-color:#071952 ;
+    background-color:rgb(34 95 177) ;
     Color:white; border:1px solid black;font-size: 6px;
   }
  
@@ -472,18 +472,18 @@ body {
   }
   
   .btn2{
-    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    width:70px;height: 20px;background-color: rgb(34 95 177);font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 20px;background-color: #071952;color: white;
+    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -494,13 +494,13 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
 @media screen and (max-width:377px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 10px;color: #071952;font-size: 20px;
+    margin: 10px 10px;color: rgb(34 95 177);font-size: 20px;
   }
   .adminpage2{
     width: 500px;
@@ -516,7 +516,7 @@ body {
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;width: 104%;
   }
   .heading2 {
-    background-color:#071952 ;
+    background-color:rgb(34 95 177) ;
     Color:white; border:1px solid black;font-size: 6px;
   }
  
@@ -536,18 +536,18 @@ body {
   }
   
   .btn2{
-    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    width:70px;height: 20px;background-color: rgb(34 95 177);font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-    background-color: #071952;color: white;font-weight: bold;height: 20px;
+    background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 20px;background-color: #071952;color: white;
+    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -558,13 +558,13 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
 @media screen and (max-width:360px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 10px;color: #071952;font-size: 20px;
+    margin: 10px 10px;color: rgb(34 95 177);font-size: 20px;
   }
   .adminpage2{
     width: 500px;
@@ -580,7 +580,7 @@ body {
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;width: 108%;
   }
   .heading2 {
-    background-color:#071952 ;
+    background-color:rgb(34 95 177) ;
     Color:white; border:1px solid black;font-size: 6px;
   }
  
@@ -600,18 +600,18 @@ body {
   }
   
   .btn2{
-    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    width:70px;height: 20px;background-color: rgb(34 95 177);font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 20px;background-color: #071952;color: white;
+    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -622,13 +622,13 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
 @media screen and (max-width:280px) {
   .adminpage2 h1{
     display: flex;justify-content: center;
-    margin: 10px 10px;color: #071952;font-size: 20px;margin-left: 100px;
+    margin: 10px 10px;color: rgb(34 95 177);font-size: 20px;margin-left: 100px;
   }
   .adminpage2{
     width: 500px;
@@ -644,7 +644,7 @@ body {
     height: 2px;border-radius: 10px;background-color: black;margin-bottom: 10px;width:139.5%;
   }
   .heading2 {
-    background-color:#071952 ;
+    background-color:rgb(34 95 177) ;
     Color:white; border:1px solid black;font-size: 6px;
   }
  
@@ -664,18 +664,18 @@ body {
   }
   
   .btn2{
-    width:70px;height: 20px;background-color: #071952;font-size: 8px;
+    width:70px;height: 20px;background-color: rgb(34 95 177);font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .sort .button2{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: #071952;color: white;font-weight: bold;height: 20px;margin-left: 70px;
+     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;margin-left: 70px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button2{
-    width:100px;height: 20px;background-color: #071952;color: white;
+    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -686,6 +686,6 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn2 button{
-    background: #071952;border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }

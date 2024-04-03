@@ -7,10 +7,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createPool({
-  user            : 'admin',
-  host            : 'acq-emp-db.crmeuqwsiwsg.eu-north-1.rds.amazonaws.com',
-  password        : 'accentiqa123',
-  database        : 'acq-emp'
+  user            : 'root',
+  host            : '34.93.192.167',
+  password        : 'Y0n6:1@VOGo6mq',
+  database        : 'accentiqa_db'
  
 });
 

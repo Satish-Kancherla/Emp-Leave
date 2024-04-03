@@ -94,7 +94,7 @@ const Employee = () => {
       
       
        const handleSubmit =()=>{
-         axios.post('http://16.170.249.73:8082/emp',content)
+         axios.post('http://34.100.197.128:8082/emp',content)
          .then(res => console.log(res))
          .catch(err => console.log(err));
          setDisable('submitted');    
