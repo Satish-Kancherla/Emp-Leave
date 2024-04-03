@@ -81,7 +81,7 @@ const ViewList = () => {
                                 <td className='data' name="description"  value={content.description} onChange={handleInputs}>{user.description}</td>
                                 <td className='data' name="managername"  value={content.managername} onChange={handleInputs}>{user.managername}</td>
                                 <td className='data' >1</td>
-                                <td >
+                                <td className='data'>
                                  
                                     <select  className='data'  name="status" value={user.status} disabled={user.status==="Approved"}  onChange={handleInputs}>
                                         <option value="Pending">Pending</option>

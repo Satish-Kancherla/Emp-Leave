@@ -7,11 +7,11 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createPool({
-  user            : 'root',
   host            : '34.93.192.167',
+  user            : 'root',
   password        : 'Y0n6:1@VOGo6mq',
   database        : 'accentiqa_db'
- 
+
 });
 
 app.get('/',(req,res)=>{
