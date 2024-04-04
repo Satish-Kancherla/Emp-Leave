@@ -54,7 +54,7 @@ body {
 }
 
 .update-btn2 button {
-    background: var(--theme-2);
+    background: var(--theme-1);
     border: none;
     border-radius: 20px;
     width: 150px;
@@ -169,7 +169,8 @@ body {
     margin: 0 10px;
     width: 100px;
     height: 35px;
-    background-color: rgb(91, 150, 226);
+    background-color: var(--theme-1);
+    cursor: pointer;
     color: white;
     font-weight: bold;
     outline: none;

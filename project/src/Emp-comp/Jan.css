@@ -17,7 +17,7 @@ body {
   border-spacing:0 15px; border-collapse: collapse;
 }
 .update-btn{
-  display: flex;justify-content: center;margin-top: 20px;font-size: 18px;
+  display: flex;justify-content: center;margin-top: 20px;font-size: 18px ;
 }
 .update-btn button{
   background: #1686F0;border: none;border-radius: 5px;width: 150px;height: 30px;
@@ -58,13 +58,13 @@ body {
 }
 .sort1 .button12{
   outline: none;font-size: 15px; border-radius: 5px;width:100px;border: none;margin: 0 10px;
-   padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 35px;
+   padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 35px;cursor: pointer;
 }
 .sort1 .button12:hover{
   background-color: #172e7d;color: white;
 }
 .btn12{
-  margin:0 10px;
+  margin:0 10px;cursor: pointer;
   width:100px;height: 35px;background-color: #1686F0;color: white;font-weight: bold;
   outline: none; border: none;border-radius: 5px;font-size: 15px;
 }
@@ -78,7 +78,7 @@ body {
   width:100px;border:1px solid black;padding:5px;font-weight: bold;font-size: 15px;
 }
 .date2-button12{
-  background-color: white;color: rgb(34 95 177);border: 2px solid rgb(34 95 177);
+  background-color: white;color: rgb(34 95 177);border: 2px solid rgb(34 95 177);cursor: pointer;
   border-radius: 5px;margin: 0 10px;font-weight: bold;height: 200px;width:80px; font-size: 15px;
 }
 .date2-button12:hover{
