@@ -3,7 +3,7 @@ import "./employeedata.css";
 import { useState } from 'react';
 import axios from "axios";
 // import emailjs from '@emailjs/browser';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 
 const Employee = () => {
 
@@ -94,8 +94,9 @@ const Employee = () => {
       
       
        const handleSubmit =()=>{
+        console.log(content);
          axios.post('http://34.100.197.128:8082/emp',content)
-         .then(res => console.log(res))
+         .then(res => console.log(res.json))
          .catch(err => console.log(err));
          setDisable('submitted');    
             
@@ -119,11 +120,11 @@ const Employee = () => {
     //     console.error('Error sending email:', error);
     //   });
 
-    Swal.fire({
-        title: "Sent",
-        text: "Your request has been sent for approval",
-        icon: "success",
-      });
+    // Swal.fire({
+    //     title: "Sent",
+    //     text: "Your request has been sent for approval",
+    //     icon: "success",
+    //   });
 
     //setTimeout(function(){window.location.reload();},4000);
       

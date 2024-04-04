@@ -24,8 +24,17 @@ app.post('/emp',(req,res)=>{
   const values = [req.body.employeename, req.body.projectname, req.body.shifttimings, req.body.holidaydate, req.body.description, req.body.managername]
 
   db.query(sql,[ values],(err,data)=>{
-      if(err)
-      return res.json(data);
+      if(err){
+      console.log(err);
+      return res.json(err);
+      }else {
+        res.send(data);
+      }
+      // else{
+      //   db.query("SELECT * FROM register WHERE id = ?",id, (err, result) => {
+      //     return res.json(result);
+      //   })
+      // }
   })
 })
 
