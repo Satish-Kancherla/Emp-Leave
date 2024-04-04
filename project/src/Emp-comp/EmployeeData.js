@@ -2,8 +2,8 @@ import React from 'react'
 import "./employeedata.css";
 import { useState } from 'react';
 import axios from "axios";
-// import emailjs from '@emailjs/browser';
-// import Swal from 'sweetalert2';
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Employee = () => {
 
@@ -112,21 +112,21 @@ const Employee = () => {
 
     };
 
-    // emailjs.send(serviceId, templateId, templateParams, publicKey)
-    //   .then((response) => {
-    //     console.log('Email sent successfully!', response);
-    //   })
-    //   .catch((error) => {
-    //     console.error('Error sending email:', error);
-    //   });
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log('Email sent successfully!', response);
+      })
+      .catch((error) => {
+        console.error('Error sending email:', error);
+      });
 
-    // Swal.fire({
-    //     title: "Sent",
-    //     text: "Your request has been sent for approval",
-    //     icon: "success",
-    //   });
+    Swal.fire({
+        title: "Sent",
+        text: "Your request has been sent for approval",
+        icon: "success",
+      });
 
-    //setTimeout(function(){window.location.reload();},4000);
+    setTimeout(function(){window.location.reload();},4000);
       
     }
      return (
