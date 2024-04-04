@@ -90,66 +90,66 @@ app.get("/userdetails/:id", (req, res) => {
 
 
 
-// app.post('/leave',(req,res)=>{
-//   const sql="INSERT INTO leaverequest (`employeename`,`projectname`,`shifttimings`,`leavetype`,`startdate`,`enddate`,`numberofdays`,`description`,`managername`) Values(?)";
+app.post('/leave',(req,res)=>{
+  const sql="INSERT INTO leaverequest (`employeename`,`projectname`,`shifttimings`,`leavetype`,`startdate`,`enddate`,`numberofdays`,`description`,`managername`) Values(?)";
 
-//   const values = [req.body.employeename, req.body.projectname, req.body.shifttimings,req.body.leavetype, req.body.startdate, req.body.enddate, req.body.numberofdays, req.body.description, req.body.managername]
+  const values = [req.body.employeename, req.body.projectname, req.body.shifttimings,req.body.leavetype, req.body.startdate, req.body.enddate, req.body.numberofdays, req.body.description, req.body.managername]
 
-//   db.query(sql,[ values],(err,data)=>{
-//       if(err)
-//       return res.json(data);
-//   })
-// })
+  db.query(sql,[ values],(err,data)=>{
+      if(err)
+      return res.json(data);
+  })
+})
 
-// app.get("/user",(req,res)=>{
-//     db.query("SELECT * FROM leaverequest",(err,result)=>{
-//         if(err){
-//             console.log(err);
-//             return result.json(err);
-//         } else {
-//             res.send(result);
-//           }
-//     })
-// })
+app.get("/user",(req,res)=>{
+    db.query("SELECT * FROM leaverequest",(err,result)=>{
+        if(err){
+            console.log(err);
+            return result.json(err);
+        } else {
+            res.send(result);
+          }
+    })
+})
 
 
-// app.get("/userdetail/:id", (req, res) => {
-//     const id = req.params.id;
-//     db.query("SELECT * FROM leaverequest WHERE id = ?",id, (err, result) => {
-//       if (err) {
-//         console.log(err);
-//       } else {
-//         res.send(result);
-//       }
-//     });
-//   });
+app.get("/userdetail/:id", (req, res) => {
+    const id = req.params.id;
+    db.query("SELECT * FROM leaverequest WHERE id = ?",id, (err, result) => {
+      if (err) {
+        console.log(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
    
 
-//   app.put("/user/:id", (req, res) => {
-//     const userIds = req.params.id;
+  app.put("/user/:id", (req, res) => {
+    const userIds = req.params.id;
 
-//     const sql ="UPDATE leaverequest SET status = ? WHERE id = ?";
+    const sql ="UPDATE leaverequest SET status = ? WHERE id = ?";
 
-//     db.query(sql, [req.body.status,userIds], (err, result) => {
-//         if (err) {
-//           console.log(err);
-//         } else {
-//           res.send(result);
-//         }
-//       }
-//     );
-//   });
+    db.query(sql, [req.body.status,userIds], (err, result) => {
+        if (err) {
+          console.log(err);
+        } else {
+          res.send(result);
+        }
+      }
+    );
+  });
 
-//   app.post('/details/:id',(req,res)=>{
-//     const sql="INSERT INTO leaverequest(`id`,`employeename`,`projectname`,`shifttimings`,`leavetype`,`startdate`,`enddate`,`numberofdays`,`description`,`managername`,`status`) Values(?)";
+  app.post('/details/:id',(req,res)=>{
+    const sql="INSERT INTO leaverequest(`id`,`employeename`,`projectname`,`shifttimings`,`leavetype`,`startdate`,`enddate`,`numberofdays`,`description`,`managername`,`status`) Values(?)";
 
-//     const values = [req.body.id, req.body.employeename, req.body.projectname, req.body.shifttimings,req.body.leavetype,req.body.startdate, req.body.enddate, req.body.numberofdays, req.body.description, req.body.managername,req.body.status]
+    const values = [req.body.id, req.body.employeename, req.body.projectname, req.body.shifttimings,req.body.leavetype,req.body.startdate, req.body.enddate, req.body.numberofdays, req.body.description, req.body.managername,req.body.status]
 
-//     db.query(sql,[ values],(err,data)=>{
-//         if(err)
-//         return res.json(data);
-//     })
-// })
+    db.query(sql,[ values],(err,data)=>{
+        if(err)
+        return res.json(data);
+    })
+})
 
 app.listen(8082,()=>{
     console.log("Listening on port number 8082");

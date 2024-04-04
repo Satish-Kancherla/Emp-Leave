@@ -16,7 +16,7 @@ const Update = () => {
     };
 
     useEffect(()=>{
-        axios.get("http://16.170.249.73:8082/userdetail/"+id)
+        axios.get("http://34.100.197.128:8082/userdetail/"+id)
         .then(res =>{
             setUser(res.data[0]);
         })

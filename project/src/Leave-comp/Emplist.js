@@ -20,7 +20,7 @@ const Emplist = () => {
    
     const fetchData = async()=>{
         try{
-            const result = await axios("http://16.170.249.73:8082/user");
+            const result = await axios("http://34.100.197.128:8082/user");
             setData(result.data);
         } catch (err) {
             console.log("something Wrong");
