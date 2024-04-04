@@ -20,7 +20,7 @@ body {
   display: flex;justify-content: center;margin-top: 20px;font-size: 18px;
 }
 .update-btn button{
-  background: rgb(34 95 177);border: none;border-radius: 5px;width: 150px;height: 30px;
+  background: #1686F0;border: none;border-radius: 5px;width: 150px;height: 30px;
 }
 .update-btn button a{
   color: white;text-decoration: none;
@@ -35,7 +35,7 @@ body {
   height: 2px;background-color: black;margin-bottom: 20px;border: 1px solid 071952;
 }
 .heading12 {
-  background-color:rgb(34 95 177) ;
+  background-color:#1686F0 ;
   Color:white; width:100px;border:1px solid black;padding:10px;
 }
 .data1{
@@ -58,14 +58,14 @@ body {
 }
 .sort1 .button12{
   outline: none;font-size: 15px; border-radius: 5px;width:100px;border: none;margin: 0 10px;
-   padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 35px;
+   padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 35px;
 }
 .sort1 .button12:hover{
   background-color: #172e7d;color: white;
 }
 .btn12{
   margin:0 10px;
-  width:100px;height: 35px;background-color: rgb(34 95 177);color: white;font-weight: bold;
+  width:100px;height: 35px;background-color: #1686F0;color: white;font-weight: bold;
   outline: none; border: none;border-radius: 5px;font-size: 15px;
 }
 .btn12:hover{
@@ -96,11 +96,11 @@ body {
 @media screen and (max-width:912px) {
   .sort1 .button12{
     outline: none;font-size: 15px; border-radius: 5px;width:100px;border: none;margin: 0 10px;
-     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 35px;
+     padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 35px;
      margin-left:160px;
   }
   .heading12 {
-    background-color:rgb(34 95 177) /* green */;font-size: 14px;
+    background-color:#1686F0 /* green */;font-size: 14px;
     Color:white; width:80px;border:1px solid black;padding:20px;
   }
   .data1{
@@ -114,13 +114,13 @@ body {
   }
   
   .btn12{
-    width:100px;height: 35px;background-color: rgb(34 95 177);color: white;font-weight: bold; border: none;border-radius: 5px;
+    width:100px;height: 35px;background-color: #1686F0;color: white;font-weight: bold; border: none;border-radius: 5px;
   }
 }
 @media screen and (max-width:870px) {
 
   .heading12 {
-    background-color:rgb(34 95 177) /* green */;font-size: 11.8px;
+    background-color:#1686F0 /* green */;font-size: 11.8px;
     Color:white; width:80px;border:1px solid black;padding:20px;
   }
   .data1{
@@ -133,12 +133,12 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 12px;
   }
   .update-btn button{
-    background: rgb(34 95 177);border: none;border-radius: 5px;width: 100px;height: 30px;
+    background: #1686F0;border: none;border-radius: 5px;width: 100px;height: 30px;
   }
 }
 @media screen and (max-width:801px) {
   .heading12 {
-    background-color:rgb(34 95 177) /* green */;font-size: 12px;
+    background-color:#1686F0 /* green */;font-size: 12px;
     Color:white; width:80px;border:1px solid black;padding:20px;
   }
   .data1{
@@ -153,7 +153,7 @@ body {
     border-spacing:0 5px; border-collapse: collapse;
   }
   .heading12 {
-    background-color:rgb(34 95 177) /* green */;font-size: 10px;
+    background-color:#1686F0 /* green */;font-size: 10px;
     Color:white; width:80px;border:1px solid black;padding:10px;
   }
   .data1{
@@ -168,18 +168,18 @@ body {
   }
   
   .btn12{
-    width:100px;height: 35px;background-color: rgb(34 95 177);font-size: 10px;
+    width:100px;height: 35px;background-color: #1686F0;font-size: 10px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .sort1 .button12{
     outline: none;font-size: 10px; border-radius: 5px;width:100px;border: none;margin: 0 10px;
-     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 35px;
+     padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 35px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button{
-    width:100px;height: 35px;background-color: rgb(34 95 177);color: white;
+    width:100px;height: 35px;background-color: #1686F0;color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 10px;
     
   }
@@ -200,7 +200,7 @@ body {
     border-spacing:0 5px; border-collapse: collapse;margin-left: 170px;
   }
   .heading12 {
-    background-color:rgb(34 95 177) /* green */;font-size: 12px;
+    background-color:#1686F0 /* green */;font-size: 12px;
     Color:white; width:80px;border:1px solid black;padding:7px;
   }
   .data1{
@@ -211,22 +211,22 @@ body {
   }
   .sort1 .sort-option{
     outline: none;border: none;font-size: 8px; border-radius: 5px;width:90%;
-     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 20px;
   }
   
   .btn12{
-    width:70px;background-color: rgb(34 95 177);font-size: 8px; outline: none;height: 25px;
+    width:70px;background-color: #1686F0;font-size: 8px; outline: none;height: 25px;
     color: white;font-weight: bold; border: none;border-radius: 5px;padding: 5px;text-align: center;
   }
   .sort1 .button12{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;
-     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
+     padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 20px;
   }
   .save{
     display: flex;justify-content: center;margin: 20px;
   }
   .save-button{
-    width:100px;height: 20px;background-color: rgb(34 95 177);color: white;
+    width:100px;height: 20px;background-color: #1686F0;color: white;
     font-weight: bold; border: none;border-radius: 5px;font-size: 8px;
     
   }
@@ -237,7 +237,7 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn button{
-    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: #1686F0;border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
 
@@ -261,7 +261,7 @@ body {
       border-radius: 10px;background-color: black;margin-bottom: 20px;
     }
   .heading12 {
-    background-color:rgb(34 95 177) ;
+    background-color:#1686F0 ;
     Color:white; border:1px solid black;font-size: 10px;
   }
  
@@ -278,18 +278,18 @@ body {
   }
   .sort1 .button12{
       outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;
-       padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 20px;
+       padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 20px;
        margin-left: 80px;
     }
   .btn12{
-    width:70px;height: 22px;background-color: rgb(34 95 177);font-size: 8px;
+    width:70px;height: 22px;background-color: #1686F0;font-size: 8px;
     color: white;font-weight: bold; border: none;border-radius: 5px;
   }
   .update-btn{
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn button{
-    background: rgb(34 95 177);border: none;border-radius: 5px;width: 70px;height: 20px;
+    background: #1686F0;border: none;border-radius: 5px;width: 70px;height: 20px;
   }
 }
 @media screen and (max-width:430px) {
@@ -316,7 +316,7 @@ body {
      border-radius: 10px;background-color: black;
    }
    .heading12 {
-     background-color:rgb(34 95 177) ;
+     background-color:#1686F0 ;
      Color:white; border:1px solid black;font-size: 13.5px;
    }
   
@@ -334,13 +334,13 @@ body {
    }
    
    .btn12{
-     background-color: rgb(34 95 177);color: white;border-radius: 5px;
+     background-color: #1686F0;color: white;border-radius: 5px;
      width:70px;height: 25px;font-size: 10px;
        
    }
    .sort1 .button12{
      outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-      padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 25px;margin-left: -45px;
+      padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 25px;margin-left: -45px;
       
    }
    
@@ -348,7 +348,7 @@ body {
      display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
    }
    .update-btn button{
-     background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
+     background: #1686F0;border: none;border-radius: 5px;width: 80px;height: 20px;
    }
  }
 @media screen and (max-width:390px) {
@@ -375,7 +375,7 @@ body {
     border-radius: 10px;background-color: black;
   }
   .heading12 {
-    background-color:rgb(34 95 177) ;
+    background-color:#1686F0 ;
     Color:white; border:1px solid black;font-size: 15px;
   }
  
@@ -393,13 +393,13 @@ body {
   }
   
   .btn12{
-    background-color: rgb(34 95 177);color: white;border-radius: 5px;
+    background-color: #1686F0;color: white;border-radius: 5px;
     width:70px;height: 25px;font-size: 10px;
       
   }
   .sort1 .button12{
     outline: none;font-size: 8px; border-radius: 5px;width:70px;border: none;margin: 0 10px;
-     padding: 5px;background-color: rgb(34 95 177);color: white;font-weight: bold;height: 25px;margin-left: -70px;
+     padding: 5px;background-color: #1686F0;color: white;font-weight: bold;height: 25px;margin-left: -70px;
      
   }
   .date2-button12{
@@ -411,6 +411,6 @@ body {
     display: flex;justify-content: center;margin-top: 20px;font-size: 8px;
   }
   .update-btn button{
-    background: rgb(34 95 177);border: none;border-radius: 5px;width: 80px;height: 20px;
+    background: #1686F0;border: none;border-radius: 5px;width: 80px;height: 20px;
   }
 }
