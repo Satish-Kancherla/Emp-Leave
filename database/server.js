@@ -19,9 +19,9 @@ app.get('/',(req,res)=>{
 })
 
 app.post('/emp',(req,res)=>{
-  const sql="INSERT INTO register(`employeename`,`projectname`,`shifttimings`,`holidaydate`,`description`,`managername`) Values(?)";
+  const sql="INSERT INTO register(`employeename`,`projectname`,`shifttimings`,`holidaydate`,`description`,`managername`,`status`) Values(?)";
 
-  const values = [req.body.employeename, req.body.projectname, req.body.shifttimings, req.body.holidaydate, req.body.description, req.body.managername]
+  const values = [req.body.employeename, req.body.projectname, req.body.shifttimings, req.body.holidaydate, req.body.description, req.body.managername,'Pending']
 
   db.query(sql,[ values],(err,data)=>{
       if(err){
